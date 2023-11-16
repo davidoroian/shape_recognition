@@ -1,7 +1,7 @@
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-# Train a machine learning model (SVM in this example)
+# Train a model using SVM
 def train_svm(X_train, y_train):
     svm = SVC(kernel='linear')
     svm.fit(X_train, y_train)
